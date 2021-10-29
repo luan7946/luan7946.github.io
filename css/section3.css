@@ -91,7 +91,6 @@ body{
 
 .main__images img{
     min-width: 3rem;
-    width:  18rem;
     height:90%;
     border-radius: 5px;
     transition: 2s ease-in-out;  
