@@ -1,6 +1,7 @@
 .section2{
    height:100%;
    width:100%;
+
 }
 
 .slide__paragrah__container h1{
@@ -13,14 +14,13 @@
    position:relative;
    top:-200px;
    display: flex;
-   justify-content: space-around;
+   justify-content: start;
    align-items: center;
    }
    
    .slideSection {
    position: absolute;
    min-width:300px;
-   left:15%;
    top: 40%;
    transition: 0.6s ease-in-out;
    height: 100%;
@@ -30,7 +30,7 @@
    display: flex;
    justify-content:center;
    min-width:300px;
-   height:300px;
+   
 }
 
 .slide__paragrah__container{

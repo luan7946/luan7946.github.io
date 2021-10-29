@@ -2,6 +2,7 @@
             const main=document.querySelector(".main")
             const container=document.querySelector(".row--container")
             const containerMainImg=document.querySelectorAll(".main__images")
+            console.log(containerMainImg)
             const partOfPhoto=document.querySelectorAll(".partOfPhoto")
             const firstiimages=containerMainImg[0].getBoundingClientRect().height
             const sliders=document.querySelectorAll(".section")
@@ -51,7 +52,7 @@
           },
         });
 
-        t2.fromTo('.navBar__logo',{x:250,y:410,scale:3},{x:0,y:-35,scale:1});
+        t2.fromTo('.navBar__logo',{x:-80,y:410,scale:3},{x:0,y:0,scale:1});
         tl.fromTo('.main--tittle',{scale:2.5},{scale:0.5,opacity:0});
 
         // scroll show//

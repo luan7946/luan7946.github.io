@@ -1,12 +1,13 @@
 .footer--line{    
-    width: 100vw;    
-    height:1px;    
-    background-color: black;
+    max-width: 100%;    
+    height:auto;    
+   
 }
     .footer{    
-        display: flex;      
+        display: flex;    
+        justify-content:center;    
         align-items: center;
-        width:100%;
+        border-top:1px solid rgb(41, 40, 40);
     }
         .footer--left { 
             line-height: 50px; 
@@ -28,7 +29,6 @@
 .footer__bar--center{    
     display: flex;    
     flex-direction: column;
-    flex-grow: 0;
     justify-content: start;
 }
 .footer__bar--center img {   

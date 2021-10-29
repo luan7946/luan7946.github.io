@@ -2,18 +2,17 @@ body{
     overflow-x: hidden;
     font-size: 16px;
 }
+
 .section1{
-    /* display: grid;
-    grid-template-columns: repeat(2, 50%); */
     position: relative;
-    width: 200px;
     min-height: 900px;
-    column-gap: 20px;
 }
+
 .navBar__logo img{
     z-index: 1;
-    position: absolute;
+    position: relative;
     margin: auto;
+    left:30px
 }
 
 
@@ -25,13 +24,7 @@ body{
     right:0;
 }
 
-/* .main--Left{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin-top: 100px;
-    z-index: 20;
-} */
+
 .main--tittle{
     position: absolute;
     right:-400%;
@@ -42,11 +35,7 @@ body{
     text-transform: uppercase;
     animation: main-tittle-animation 0.5s  ease-in-out;
 }
-/* .tittle--parapyh{
-    font-size: 2rem;
-    text-transform: uppercase;
-    animation: second-tittle-animation 0.2s  ease-in-out;
-} */
+
 
 
 /*animation*/
@@ -77,10 +66,5 @@ body{
     .main--tittle{
         display: none;
     }
-    .navBar__logo img{
-        position: relative;
-        
-        top:30px;
-        
-    }
+    
 }
