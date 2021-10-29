@@ -1,0 +1,58 @@
+.slide-show-container{
+    position: relative;
+    padding:62px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    flex:0 1 auto;
+}
+.text-number{
+    position: absolute;
+    color:black;
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom:1px solid black ;
+}
+/*.images{
+    
+    position:absolute;
+    height: 701px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0px 20px;
+}
+.images4{
+    background-image: url("images/alternative-idea.jpg");
+    background-position: center center;
+}
+.images3{
+    background-image: url("images/abd.jpg");
+    background-position: center center;
+}
+.images1{
+    background-image: url("images/alternative-idea.jpg");
+    background-position: center center;
+}
+.images2{
+    background-image: url("images/alternative-idea.jpg");
+    background-position: center center;
+}*/
+.srcoll-down{
+    width:26px;
+    height:80px;
+    margin: 0 auto;
+    background-color:black; 
+    animation: play 2s steps(61) infinite;
+    position:absolute;
+    top: 200px;
+    z-index:150;
+    left: 50%;
+    margin-left: -13px;
+    
+}
+@keyframes play{
+    100%{background-position: -1586px;}
+}
+
+

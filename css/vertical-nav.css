@@ -1,0 +1,21 @@
+.vertical-nav{
+    position: relative;
+    background-color:white;
+    top: 100px;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    display: none;
+}
+
+.vertical-nav nav ul li {
+    margin: 3px;
+    list-style: none;
+}
+
+.vertical-nav nav ul li a{
+    margin: 3rem;
+    text-decoration: none;
+}
+

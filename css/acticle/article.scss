@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    box-sizing: inherit;
+}
+body{
+    box-sizing: border-box;
+    padding: 0px 3rem;
+   
+}
+.sectionHeader{
+    background-image:url(DSC02617.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+
+
+/*line*/
+.header__lineBox{
+    position: absolute;
+    left: 50%;
+    bottom:0%;
+}
+
+
+ .header__line{
+    width: 1px;
+    height:8rem;
+    background-color: black;
+    position: absolute;
+    transform: rotateY(90);
+    bottom: -50px;
+    left:50%;
+    position: relative;
+} 
+
+
+.header__line::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height:1rem;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 10;
+    box-shadow: white;
+    animation: header__line-animation 2s  infinite ease-in-out;
+}
+
+@keyframes header__line-animation{
+ 
+ 0%{
+    transform:translateY(0px);
+    opacity: 0.8;
+ }
+
+ 100%{
+    transform:translateY(300px);
+    opacity: 0;
+ }
+ 
+}
+
+
+
+
+/* .container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+} */
+
+
+/*main*/
+// .section{
+//     height:100vh;
+//     scroll-snap-align:start;/*scroll to where*/
+// }
+// .sectionExp{
+    
+//     scroll-snap-align:start;/*scroll to where*/
+// }
+
+/*intro part*/
+.intro--se {
+    display: inline-block;
+    width:50%;
+}
+
+.intro h1{
+    font-size: 60px;
+}
+.intro h5{
+    font-size: 40px;
+}
+
+/*section1 par*/
+.section{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+.section__row{
+    width: 100vw;
+    height: 100px;
+}
+.main__photo{
+    width:50%;
+}
+.main__paragraph{
+    width: 50%;
+}
+.main__photo img{
+    width: 100px;
+    height: 100px;
+}
+.main__paragraph p{
+    width: 100%;
+    font-size: 2rem;
+}
+
+.section1{
+    background-color: khaki;
+}
+.section2{
+   
+    background-color: red;
+}
+.section3{
+   
+    background-color: darkblue;
+}
+.section4{
+    
+    background-color: darkcyan;
+}
