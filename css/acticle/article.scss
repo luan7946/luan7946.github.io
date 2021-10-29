@@ -11,12 +11,11 @@ body{
 }
 .sectionHeader{
     background-image:url(DSC02617.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     background-attachment: fixed;
-    height: 100vh;
-    width: 100vw;
-    position: relative;
+    height: 500px;
+    width: 500%;
 }
 
 
