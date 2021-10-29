@@ -26,6 +26,10 @@
                 font-size: 6rem;
                 color:var(--font-color)
             }
+.footer__bar--center img {   
+    max-width:50%;    
+    height:25%;
+}
 .footer__bar--center{    
     display: flex;    
     flex-direction: column;
