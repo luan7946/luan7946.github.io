@@ -359,11 +359,7 @@ body{
 
 
 
-/* .container{
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
-} */
+
 
 
 /*main*/
@@ -441,41 +437,5 @@ body{
 .section2{
     display: flex;
     justify-content: center;  
-} */
-/* .section3{
- display: flex;
- flex-direction: column;
- justify-content: center;  
-} */
-/* .section6{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-} */
-
-/* .hidden{
-    opacity:0;
-    transform: translateY(100px);
-} */
-
-/* .caption{
-    color:var(--caption-color);
-    position: relative;
-    left: 42px;
-}
-.caption::before{
-    content: "";
-    width: 30px;
-    height: 1px;
-    background-color:var(--font-second-color);
-    position: absolute;
-    left:-30px;
-    bottom:13px;
-
-} */
-
-/* .swiper {
-    width: 600px;
-    height: 300px;
-  } */
+} 
   
