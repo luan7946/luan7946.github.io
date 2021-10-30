@@ -26,23 +26,21 @@
                 font-size: 6rem;
                 color:var(--font-color)
             }
+.footer__bar--center{    
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
 .footer__bar--center img {   
     max-width:50%;    
     height:25%;
 }
-.footer__bar--center{    
-    display: flex;    
-    flex-direction: column;
-    justify-content: start;
-}
-.footer__bar--center img {   
-    width:50%;    
-    height:25%;
-}
+
 @media screen and (max-width:600px) {
     .footer{
         display: flex; 
         flex-direction: column;
         justify-content: center;
     }
+   
 }
