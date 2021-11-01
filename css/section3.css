@@ -55,6 +55,7 @@ body{
 
 .flex-container{
     display: flex;
+    justify-content: space-around;
 }
 
 
@@ -64,7 +65,7 @@ body{
     max-width: 50%;
     max-height:50%;
     opacity:1;
-    margin: 1rem auto;
+   
 }
 .main__images img{
     display: block ;
