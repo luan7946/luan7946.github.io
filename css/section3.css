@@ -47,9 +47,6 @@ body{
 /* //////////////////// */
 
  .row{
-    display:grid!important;
-    gap: 3rem;
-    grid-auto-flow:column;
     transition: 0.6s ease-in-out ;
 } 
 
